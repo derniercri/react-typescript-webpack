@@ -5,7 +5,7 @@ import Button from './components/Button'
 
 class App extends React.Component {
     render() {
-        return <Button label="Hello World!" />
+        return <Button onClick={() => alert('Hey, you clicked me!')} label="Hello World!" />
     }
 }
 
